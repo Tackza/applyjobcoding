@@ -83,7 +83,7 @@ function App() {
     if (!question3) {
       text += "ไม่ได้ทำข้อ 3"
     }
-    else {
+    if(question1 && question2 && question3) {
       text = "ทำหมดทุกข้อเลย"
     }
     alert(text)
